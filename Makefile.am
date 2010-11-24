@@ -4,11 +4,12 @@ doc: Doxyfile
 	cd $(top_srcdir); doxygen Doxyfile
 
 if COVERAGE
-gcov:
+gcov:	FORCE
 	cd src; gcov -b -f *.gcda
-	cd test; gcov -b -f *.gcda
+	cd spec; gcov -b -f *.gcda
 	lcov -c -d . -o lcov.info
 	genhtml -o gcov lcov.info
+	gcovr.py -b -x > coverage.xml
 endif
 
 splint.log: FORCE

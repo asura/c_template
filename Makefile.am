@@ -15,6 +15,6 @@ splint.log: FORCE
 	splint -I$(top_srcdir)/include $(top_srcdir)/src/*.c > $@
 
 .cccc: FORCE
-	cccc ../src/*.c ../test/*.c
+	cccc ../src/*.c ../spec/*.c
 
 FORCE:

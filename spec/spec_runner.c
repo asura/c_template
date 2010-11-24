@@ -2,7 +2,7 @@
 # include "config.h"
 #endif
 
-#include <testRunner.h>
+#include <cspec.h>
 
 #ifdef WITH_DMALLOC
 # include <dmalloc.h>

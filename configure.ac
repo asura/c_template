@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.64])
+AC_PREREQ([2.59])
 AC_INIT(c_template, 0.1, quanyangyi0323@gmail.com)
 AC_CONFIG_SRCDIR([include/doxygen_mainpage.h])
 AC_CONFIG_HEADERS([config.h])

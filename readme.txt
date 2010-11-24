@@ -1,7 +1,72 @@
-|プロファイル取得|gprof|configure --enable-profile|
-|コードカバレッジ取得|gcov/lcov/gcovr|configure --enable-coverage & make gcov|
-|メモリリーク調査|dmalloc|configure --enable-debug|
-|コード解析|splint|make splint.log|
-|メトリクス取得|cccc|make .cccc|
-|スペック記述|CSpec|make check|
-|ドキュメント作成|Doxygen|make doc|
+h2. プロファイル取得
+
+h3. 利用するツール
+
+* gprof
+
+h3. 使用法
+
+* configure --enable-profile
+
+h2. コードカバレッジ取得
+
+h3. 利用するツール
+
+* gcov
+* lcov
+* gcovr
+
+h3. 使用法
+
+* configure --enable-coverage
+* make gcov
+
+h2. メモリリーク調査
+
+h3. 利用するツール
+
+* dmalloc
+
+h3. 使用法
+
+* configure --enable-debug
+
+h2. コード解析
+
+h3. 利用するツール
+
+* splint
+
+h3. 使用法
+
+* make splint.log
+
+h2. メトリクス取得
+
+h3. 利用するツール
+
+* cccc
+
+h3. 使用法
+
+* make .cccc
+
+h2. スペック記述
+
+h3. 利用するツール
+
+* CSpec
+
+h3. 使用法
+
+* make check
+
+h2. ドキュメント作成
+
+h3. 利用するツール
+
+* Doxygen
+
+h3. 使用法
+
+* make doc
